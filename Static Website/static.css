@@ -1,0 +1,197 @@
+.Headermenu {
+    background-color:#545454;
+    padding:30px;
+    text-align:center;
+    width:100vw;
+    font-family: 'PT Serif', serif;;  
+}
+.h1 {
+    margin-right: 20px;
+    color: white;
+    font-size: 25px;
+}
+a:hover {
+    color:rgb(15, 15, 15);
+}
+.Div1 {
+    background-image:url("https://cdn.phenompeople.com/CareerConnectResources/PMCNUS/images/1682523868554_cropChild-FbctS-1640032193345.png");
+    height:100vh;
+    width:100vw;
+    background-size:cover;
+}
+.p1 {
+    font-family:"Roboto" ;
+    color:white;
+    font-size:50px;
+    font-weight:bold;
+}
+.Div2 {
+    position:absolute;
+    top:30vh;
+    left:35vw;
+}
+.Div3{
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg");
+    height:50vh;
+    width:100vw;
+    background-size:cover;
+}
+.Div4 h2{
+    color: #3F3F3F;
+    font-weight: bold;
+    font-size: 50px;
+}
+.p2{
+    font-size: 25px;
+    font-family: roobert,Arial,sans-serif;
+    color: #C4C4C4;
+}
+.Div4{
+    position: absolute;
+    top: 113vh;
+}
+.contact-us1{
+    padding-top: 10px;
+    background-image: url("https://cdn.sanity.io/images/bkpqsis7/website/f64cd9f6aeb5c87028ef7d35919230803c31cb6e-2880x1160.jpg?w=1440&h=580&q=75&fit=max&auto=format");
+    text-align: center;
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+}
+.contact-us1 h5{
+    color: #f1e4e4;
+    font-weight: bold;
+    font-size: 50px;
+}
+.l1,.l2,.l3,.l4,.l5{
+    margin-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+    
+}
+.Div5{
+    background-image:url("https://img.freepik.com/free-photo/black-frame-with-copy-space-top-view_23-2148643791.jpg?size=626&ext=jpg&ga=GA1.1.480808782.1698659471&semt=ais");
+    height:50vh;
+    width:100vw;
+    background-size:cover;
+}
+
+.Div6{
+    position: absolute;
+    top: 310vh;
+}
+.Div7 {
+    background-image:url("https://img.pikbest.com/backgrounds/20190730/technology-in-the-concept-of-digital-background-v_1517348jpg!w700wp");
+    height:100vh;
+    width:100vw;
+    background-size:cover;
+}
+.Div8{
+    position: absolute;
+    top: 370vh;
+}
+.Block{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+}
+.Block1,.Block2,.Block3{
+    background-color: #3F3F3F;
+    color: whitesmoke;
+    margin-bottom: 15px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background: #ddd;
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content-section{
+    float: left;
+    width: 55%;
+}
+.image-section{
+    float:right;
+    width: 40%;
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.content-section .content h3{
+    margin-top: 20px;
+    color: #5d5d5d;
+    font-size: 20px;
+}
+.content-section .content p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.content-section .content .button{
+    margin-top: 30px;
+}
+.content-section .content .button a{
+    background-color: #3d3d3d;
+    padding: 12px 40px;
+    text-decoration: none;
+    color:  #fff;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+.content-section .content .button a:hover{
+    background-color: #a52a2a;
+    color: #fff;
+}
+@media screen and (max-width: 768px) {
+    .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .content-section{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .image-section{
+        float: none;
+        width: 100%;
+    }
+    .image-section img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .content-section .title{
+        text-align: center;
+        font-size: 19px;
+    }
+    .content-section .content .button {
+        text-align: center;
+    }
+    .content-section .content .button a{
+        padding: 9px 30px;
+    }
+}
